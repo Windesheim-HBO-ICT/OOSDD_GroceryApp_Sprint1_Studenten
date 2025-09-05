@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>GroceryApp</ApplicationTitle>
+		<ApplicationTitle>boodschappenapp</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>nl.windesheim.groceryapp</ApplicationId>
