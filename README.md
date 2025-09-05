@@ -1,6 +1,6 @@
 # GroceryApp Sprint 1 - Studentversie  
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.
-Gecloned door Django.
+Gecloned door Django. 
 
 ## Studentversie:  
 **UC01 Tonen boodschappenlijsten**  
