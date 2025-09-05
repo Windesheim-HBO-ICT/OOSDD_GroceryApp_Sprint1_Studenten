@@ -1,5 +1,6 @@
-# GroceryApp Sprint 1 - Studentversie (door Jorn)
+# GroceryApp Sprint 1 - Studentversie
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
+Deze versie is geupdate door Jorn.
 
 ## Studentversie:  
 **UC01 Tonen boodschappenlijsten**  
