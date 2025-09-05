@@ -1,4 +1,4 @@
-# GroceryApp Sprint 1 - Studentversie  
+# GroceryApp Sprint 1 - Studentversie --Fabian Döbber
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
 
 ## Studentversie:  
