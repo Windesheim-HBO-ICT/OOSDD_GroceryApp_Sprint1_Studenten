@@ -8,5 +8,6 @@ public partial class GroceryListsView : ContentPage
     {
         InitializeComponent();
         BindingContext = viewModel;
-    }  
+    }
 }
+//Voeg comments toe 
