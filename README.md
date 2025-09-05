@@ -19,4 +19,4 @@ In het bestand `ProductRepository.cs` uit het project GroceryApp.Data:
   - Cornflakes[voorraad 0]
 - In de methode GetAll() zorg je dat de lijst met producten wordt meegegeven.
 
-Ronald was hier
+Ronald was hier 
