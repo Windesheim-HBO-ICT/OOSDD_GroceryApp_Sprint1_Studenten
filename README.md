@@ -11,7 +11,7 @@ In het bestand `GroceryListItem.cs` uit het project GroceryApp.Models:
 - In de constructor de doorgegeven waarden koppelen aan de properties.
 
 **UC03 Tonen producten**  
-In het bestand `ProductRepository.cs` uit het project GroceryApp.Data:
+In het bestand `ProductRepository.cs` uit het project  GroceryApp.Data:
 - Initieer in de constructor de lijst met 4 nieuwe producten:  
   - Melk[voorraad 300]
   - Kaas[voorraad 100]
