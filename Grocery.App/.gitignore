@@ -1,0 +1,16 @@
+NewFile1.txt
+
+# Rider / JetBrains instellingen
+.idea/
+*.iml
+
+# Build-output en debug
+bin/ 
+obj/
+*.pdb
+
+# Log en tijdelijke bestanden
+*.log 
+*.cache  
+*.user
+*.suo   
