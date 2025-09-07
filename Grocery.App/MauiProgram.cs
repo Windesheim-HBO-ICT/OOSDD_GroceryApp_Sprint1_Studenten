@@ -38,4 +38,3 @@ namespace Grocery.App
         }
     }
 }
-// hallo
