@@ -6,6 +6,8 @@ In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.
 
 ## Studentversie:
 
+# Read me aanpassen test
+
 **UC01 Tonen boodschappenlijsten**  
 Is compleet.
 
