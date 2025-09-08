@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea/
+
+# Random file i want to ignore
+LICENSE.txt
