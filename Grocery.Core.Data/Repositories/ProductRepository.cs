@@ -15,6 +15,7 @@ namespace Grocery.Core.Data.Repositories
                  * Kaas[voorraad 100], 
                  * Brood[voorraad 400] en 
                  * Cornflakes[voorraad 0]
+                 * Havermout [voorraad 10]
                 */
 				];
         }
