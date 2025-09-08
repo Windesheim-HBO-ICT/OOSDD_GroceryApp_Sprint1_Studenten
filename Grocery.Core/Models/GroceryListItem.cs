@@ -8,6 +8,8 @@
         public GroceryListItem(int id, int groceryListId, int productId, int amount) : base(id, "")
         {
             //To do:assign values to the properties
+
+
         }
 
         public Product Product { get; set; } = new(0, "None", 0);
