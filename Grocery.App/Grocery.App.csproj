@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>GroceryApp perdepap rka</ApplicationTitle>
+		<ApplicationTitle>GroceryApp</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>nl.windesheim.groceryapp</ApplicationId>
