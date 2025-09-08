@@ -1,0 +1,15 @@
+name: Hello World Workflow
+ 
+on:
+  push:
+    branches:
+      - main  # Voer de workflow uit bij een push naar de main branch
+  workflow_dispatch:  # Hiermee kun je de workflow handmatig starten
+ 
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, World! 🎉"
+ 
