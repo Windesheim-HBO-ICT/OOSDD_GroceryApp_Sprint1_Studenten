@@ -11,6 +11,7 @@
 *.sln.docstates
 #dit is een hotfix
 #dit is commentaar
+#dit is commentaar voor de tak dev
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
