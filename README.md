@@ -7,8 +7,8 @@ Is compleet.
 
 **UC02 Tonen inhoud boodschappenlijst**   
 In het bestand `GroceryListItem.cs` uit het project GroceryApp.Models:
-- De member variabelen wijzigen in properties
-- In de constructor de doorgegeven waarden koppelen aan de properties.
+// De member variabelen wijzigen in properties
+// In de constructor de doorgegeven waarden koppelen aan de properties.
 
 **UC03 Tonen producten**  
 In het bestand `ProductRepository.cs` uit het project GroceryApp.Data:
