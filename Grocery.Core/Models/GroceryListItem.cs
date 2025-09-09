@@ -9,6 +9,7 @@
         {
             GroceryListId = groceryListId;
 
+
             ProductId = productId;
 
             Amount = amount;
