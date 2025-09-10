@@ -363,3 +363,42 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea/
+
+# Visual Studio-specifieke bestanden
+.vs/                # Visual Studio tijdelijke bestanden en instellingen
+*.user              # Gebruikersspecifieke projectinstellingen
+*.suo               # Solution User Options file
+*.cache             # Cache bestanden
+*.log               # Logbestanden
+ 
+# Build-output en binairen
+bin/                # Build output
+obj/                # Object files en tijdelijke buildbestanden
+*.dll               # Gecodeerde libraries
+*.exe               # Uitvoerbare bestanden
+*.pdb               # Debugging-informatie
+*.ilk               # Incremental linker files
+*.aps               # Visual Studio resource project files
+*.nupkg             # NuGet package bestanden
+ 
+# NuGet-specifieke bestanden
+.nuget/             # NuGet package bestanden
+packages/           # Afhankelijke packages
+project.lock.json   # Lock-bestand voor packages (oudere versies)
+package-lock.json   # Lock-bestand voor NPM packages
+*.nuget.props       # NuGet build properties
+*.nuget.targets     # NuGet build targets
+ 
+# .NET MAUI en Xamarin-specifieke bestanden
+platforms/          # Platformspecifieke buildbestanden (Android/iOS/macOS/Windows)
+AppPackages/        # MAUI app packages
+artifacts/          # Build artifacts
+ 
+# Configuratie- en omgeving bestanden
+*.config            # Configuratiebestanden
+*.ini               # Initialisatiebestanden
+*.env               # Gevoelige omgevingsvariabelen
+secrets.json        # Gevoelige configuraties
+ 
+# macOS-specifieke bestanden
+.DS_Store           # macOS systeembestanden
