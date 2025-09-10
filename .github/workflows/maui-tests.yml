@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - infra/runner-toevoegen
+      - Development
   pull_request:
     branches:
       - main
