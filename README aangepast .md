@@ -8,6 +8,8 @@ In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.
 
 # Read me aanpassen test
 
+# Read me aanpassen test 2
+
 **UC01 Tonen boodschappenlijsten**  
 Is compleet.
 
