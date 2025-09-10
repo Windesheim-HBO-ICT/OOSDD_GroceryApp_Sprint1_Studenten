@@ -363,3 +363,37 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea/
+
+# .NET MAUI project-specific ignores (for specific VS-settings)
+# Platform build-output (ignores bin/obj for Android/iOS/Windows but not the sourcecode)
+Platforms/*/bin/
+Platforms/*/obj/
+Platforms/Android/Res/obj/
+Platforms/iOS/bin/
+Platforms/iOS/obj/
+Platforms/Windows/bin/
+Platforms/Windows/obj/
+Platforms/MacCatalyst/bin/
+Platforms/MacCatalyst/obj/
+
+# MAUI app packages and debug-output
+*.apk
+*.aab
+*.ipa
+*.msix
+*.msixbundle
+*.keystore
+*.p12
+*.hotreload*
+XamlC*
+
+# Resources debug (Temporary raw assets)
+Resources/Raw/**/bin/
+Resources/Raw/**/obj/
+
+# Extra debug like logs
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
