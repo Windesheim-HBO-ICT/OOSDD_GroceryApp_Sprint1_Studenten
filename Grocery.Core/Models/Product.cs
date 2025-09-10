@@ -1,11 +1,16 @@
-﻿namespace Grocery.Core.Models
+﻿
+namespace Grocery.Core.Models
 {
     public class Product : Model
     {
         public int Stock { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
         public Product(int id, string name, int stock) : base(id, name)
         {
             Stock = stock;
+            Name = name;
+            Id = id;
         }
     }
 }

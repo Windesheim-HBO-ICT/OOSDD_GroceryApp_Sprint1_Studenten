@@ -1,6 +1,9 @@
 ﻿using Grocery.Core.Interfaces.Repositories;
 using Grocery.Core.Interfaces.Services;
 using Grocery.Core.Models;
+using Grocery.Core.Interfaces.Services;
+using Grocery.Core.Models;
+using System.Collections.ObjectModel;
 
 namespace Grocery.Core.Services
 {
@@ -26,7 +29,12 @@ namespace Grocery.Core.Services
 
         public List<GroceryListItem> GetAllOnGroceryListId(int groceryListId)
         {
-            return _groceriesRepository.GetAll().Where(g => g.GroceryListId == groceryListId).ToList();
+           //List<GroceryListItem> listItems = _groceriesRepository.GetAll().Where(g => g.GroceryListId == groceryListId).ToList();
+           //foreach (GroceryListItem listItem in listItems)
+           //{
+               
+           //}
+           return _groceriesRepository.GetAll().Where(g => g.GroceryListId == groceryListId).ToList();
         }
 
         public GroceryListItem Add(GroceryListItem item)
@@ -39,10 +47,7 @@ namespace Grocery.Core.Services
             throw new NotImplementedException();
         }
 
-        public GroceryListItem? Get(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public GroceryListItem? Get(int id) =>  _groceriesRepository.Get(id);
 
         public GroceryListItem? Update(GroceryListItem item)
         {

@@ -16,28 +16,21 @@ namespace Grocery.Core.Data.Repositories
                 new GroceryList(4, "Weekend boodschappen", DateOnly.Parse("2024-11-30"), "#003300", 1)];
         }
 
-        public List<GroceryList> GetAll()
-        {
-            return groceryLists;
-        }
-        public GroceryList Add(GroceryList item)
-        {
+        public List<GroceryList> GetAll() => groceryLists;
+
+        public GroceryList Add(GroceryList item) {
             throw new NotImplementedException();
         }
 
-        public GroceryList? Delete(GroceryList item)
-        {
+        public GroceryList? Delete(GroceryList item) {
             throw new NotImplementedException();
         }
 
-        public GroceryList? Get(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public GroceryList? Update(GroceryList item)
-        {
-            throw new NotImplementedException();
+        public GroceryList? Get(int id) => groceryLists.FirstOrDefault(g => g.Id == id);
+        public GroceryList? Update(GroceryList item) {
+            GroceryList? groceryList = groceryLists.FirstOrDefault(g => g.Id == item.Id);
+            groceryList = item;
+            return groceryList;
         }
     }
 }
