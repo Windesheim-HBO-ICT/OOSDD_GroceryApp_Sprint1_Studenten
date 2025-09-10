@@ -3,6 +3,31 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Visual Studio instellingen
+.vs/
+*.user
+*.suo
+
+# VS Code instellingen
+.vscode/
+
+# Build output
+bin/
+obj/
+out/
+
+# Debug / release bestanden
+*.pdb
+*.exe
+*.dll
+*.log
+
+# Andere tijdelijke bestanden
+*.tmp
+*.cache
+
+
+
 # User-specific files
 *.rsuser
 *.suo
