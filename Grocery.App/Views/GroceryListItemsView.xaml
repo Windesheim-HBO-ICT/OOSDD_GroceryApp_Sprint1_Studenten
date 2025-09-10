@@ -6,6 +6,8 @@
              x:Class="Grocery.App.Views.GroceryListItemsView"
              x:DataType="vm:GroceryListItemsViewModel"
              Title="GroceryListItemsView">
+    
+    // Kleine wijziging test
 
     <Shell.TitleView>
         <Grid>
