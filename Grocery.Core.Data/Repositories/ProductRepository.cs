@@ -9,18 +9,15 @@ namespace Grocery.Core.Data.Repositories
         public ProductRepository()
         {
             products = [
-                /* 
-                 * initieer de lijst met 4 nieuwe producten: 
-                 * Melk[voorraad 300], 
-                 * Kaas[voorraad 100], 
-                 * Brood[voorraad 400] en 
-                 * Cornflakes[voorraad 0]
-                */
-				];
+                new Product(1, "Melk", 300),
+                new Product(2, "Kaas", 100),
+                new Product(3, "Brood", 400),
+                new Product(4, "Cornflakes", 0)
+			];
         }
         public List<Product> GetAll()
         {
-            return []; //wijzig dit in de gemaakte lijst uit de constructo
+            return products;
         }
 
         public Product? Get(int id)
