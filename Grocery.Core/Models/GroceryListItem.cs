@@ -10,6 +10,6 @@
             //To do:assign values to the properties
         }
 
-        public Product Product { get; set; } = new(0, "None", 0);
+        public Product Product { get; set; } = new(0, "None ", 0);
     }
 }
