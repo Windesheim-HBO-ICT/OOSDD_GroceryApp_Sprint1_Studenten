@@ -6,13 +6,7 @@ In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.
 
 ## Studentversie:
 
-# Read me aanpassen test
-
-# Read me aanpassen test 2
-
-# Read me aanpassen test 3
-
-# read me aanpassent est 4 miljoen
+# Workflow test
 
 **UC01 Tonen boodschappenlijsten**  
 Is compleet.
