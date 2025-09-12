@@ -3,6 +3,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# These are the things that need to be ignored for Prestatiedoelen rubric 1
+.vs/
+*.user
+bin/
+obj/
+*.pdb
+platforms/
+artifacts/
+
+
+
 # User-specific files
 *.rsuser
 *.suo
