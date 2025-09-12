@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-      - feature/usecase2&3
+      - dev
+      - feature/*
       - infra/runner-toevoegen
   pull_request:
     branches:
