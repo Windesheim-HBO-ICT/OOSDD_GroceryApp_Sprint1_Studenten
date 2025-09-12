@@ -1,15 +1,36 @@
-﻿namespace Grocery.Core.Models
+﻿using Grocery.Core.Services;
+
+namespace Grocery.Core.Models
 {
     public class GroceryListItem : Model
     {
-        public int GroceryListId; //To do: change it to a property
-        public int ProductId;     //To do: change it to a property
-        public int Amount { get; set; }
+        public int GroceryListId { get; set; }
+        public int ProductId { get; set; }
+        public int _Amount;
+        public Product Product { get; set; } = new(0, "None", 0);
+
         public GroceryListItem(int id, int groceryListId, int productId, int amount) : base(id, "")
         {
-            //To do:assign values to the properties
+            Id = id;
+            GroceryListId = groceryListId;
+            ProductId = productId;
+            _Amount = amount;
         }
 
-        public Product Product { get; set; } = new(0, "None", 0);
+        public int Amount
+        {
+            get { return _Amount; }
+            set
+            {
+                if (value > 0)
+                {
+                    _Amount = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Amount must be greater than 0");
+                }
+            }
+        }
     }
 }
