@@ -4,17 +4,17 @@ namespace Grocery.Core.Models
 {
     public class GroceryListItem : Model
     {
-        private int _Id { get; set; }
-        private int _MyGroceryList { get; set; }
-        private int _MyProduct { get; set; }
-        private int _Amount;
+        public int GroceryListId { get; set; }
+        public int ProductId { get; set; }
+        public int _Amount;
+        public Product Product { get; set; } = new(0, "None", 0);
 
         public GroceryListItem(int id, int groceryListId, int productId, int amount) : base(id, "")
         {
             Id = id;
-            _MyGroceryList = groceryListId;
-            _MyProduct = productId;
-            Amount = amount;
+            GroceryListId = groceryListId;
+            ProductId = productId;
+            _Amount = amount;
         }
 
         public int Amount
